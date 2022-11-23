@@ -20,13 +20,19 @@ namespace CreatingATextFile
 
         private void btnCreate_Click(object sender, EventArgs e)
         {
-            /*  FrmFileName frmFileName = new FrmFileName();
-              frmFileName.ShowDialog();*/
 
+            /*  Uncomment for 1st laboratory    */
+
+           /* FrmFileName frmFileName = new FrmFileName();
+            frmFileName.ShowDialog(); */
+
+
+
+            // Second Laboratory Exercise
             FrmRegistration frmRegistration = new FrmRegistration();
-            frmRegistration.ShowDialog(); 
+            frmRegistration.ShowDialog();
 
-         /*   string getInput = txtInput.Text.ToString();
+            string getInput = txtInput.Text.ToString();
 
             string docPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
             using (StreamWriter outputFile = new StreamWriter(Path.Combine(docPath,
@@ -34,7 +40,7 @@ namespace CreatingATextFile
             {
                 outputFile.WriteLine(getInput);
                 Console.WriteLine(getInput);
-            }*/
+            }
 
         }
 

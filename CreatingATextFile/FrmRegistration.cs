@@ -16,7 +16,6 @@ namespace CreatingATextFile
         public FrmRegistration()
         {
             InitializeComponent();
-
          
         }
 
@@ -43,7 +42,8 @@ namespace CreatingATextFile
             string[] registration = {"Student No: " + lblStudentNo.Text, "Full Name: " + txtLastName.Text + ", " + txtFirstName.Text,
                                      "Program: " + cbPrograms.Text, "Gender: " + cbGender.Text, "Age: " + txtAge.Text, 
                                      "Birthday: " + datePickerBirthday.Text, "Contact No: " + txtContactNo.Text};
-           
+
+            // Show frmFileName class to create a file name
             FrmFileName frmFileName = new FrmFileName();
             frmFileName.ShowDialog();
 
