@@ -24,11 +24,11 @@ namespace CreatingATextFile
             /*  Uncomment for 1st laboratory    */
 
            /* FrmFileName frmFileName = new FrmFileName();
-            frmFileName.ShowDialog(); */
+            frmFileName.ShowDialog();*/
 
 
 
-            // Second Laboratory Exercise
+            // 2nd Laboratory Exercise
             FrmRegistration frmRegistration = new FrmRegistration();
             frmRegistration.ShowDialog();
 
